@@ -1,0 +1,67 @@
+/*Show dropdown on hover*/
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+
+/* Optional smooth effect */
+ .dropdown-menu{
+    transition: 0.3s;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu{
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+/* Dropdown item styling */
+.dropdown-item{
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+/* Hover effect on items */
+.dropdown-item:hover{
+    background-color: black;
+    color: white;
+}
+/* Full width dropdown */
+.mega-menu{
+    width: 100vw;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    padding: 30px;
+    margin-top: 0;
+        /* Center items */
+    text-align: center;
+}
+
+/* Keep dropdown aligned */
+.nav-item.dropdown{
+    position: static;
+}
+/* Center dropdown items */
+.mega-menu .dropdown-item{
+    text-align: center;
+}
+
+
+footer {
+    background-color: #838385;
+    color: #f1eeee;
+    padding: 3rem 0;
+  }
+
+  .social-icons a {
+    font-size: 1.25rem;
+  }
