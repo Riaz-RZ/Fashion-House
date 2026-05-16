@@ -77,22 +77,67 @@
     </nav>
 
 
-
+<section class="container mt-4 mb-4">
+        <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="hover">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Men New In"></button>
+                <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Women New In"></button>
+                <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Sale"></button>
+            </div>
+            <div class="carousel-inner rounded overflow-hidden shadow-sm">
+                <div class="carousel-item active">
+                    <a href="/MEN/men_NewIn.html" class="d-block text-decoration-none text-white position-relative">
+                        <img src="/images/carousal4.jpg" class="d-block w-100" alt="Men New In Fashion">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+                            <h3 class="fw-bold">Men New In</h3>
+                            <p>Explore the latest men’s arrivals and fresh streetwear styles.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/WOMEN/women_NewIn.html" class="d-block text-decoration-none text-white position-relative">
+                        <img src="/images/carousal2.jpg" class="d-block w-100" alt="Women New In Fashion">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+                            <h3 class="fw-bold">Women New In</h3>
+                            <p>Shop the newest women’s collection and discover stunning fashion finds.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/WOMEN/women_Sale.html" class="d-block text-decoration-none text-white position-relative">
+                        <img src="/images/Carousel1.png" class="d-block w-100" alt="Sale Fashion">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+                            <h3 class="fw-bold">Sale</h3>
+                            <p>Catch the hottest discounts and shop sale styles before they sell out.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="mt-auto">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-3">
-                    <img src="./images/Fashion_House_Logo.jpg" alt="Footer Logo" class="img-fluid"
+                    <img src="/images/Fashion_House_Logo.jpg" alt="Footer Logo" class="img-fluid"
                         style="max-height: 50px;">
                 </div>
                 <div class="col-md-4 mb-3">
                     <h5>Shop</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-decoration-none text-white">Men</a></li>
-                        <li><a href="#" class="text-decoration-none text-white">Women</a></li>
-                        <li><a href="#" class="text-decoration-none text-white">Sale</a></li>
+                        <li><a href="/MEN/men_NewIn.html" class="text-decoration-none text-white">Men</a></li>
+                        <li><a href="/WOMEN/women_NewIn.html" class="text-decoration-none text-white">Women</a></li>
+                        <li><a href="/WOMEN/women_Sale.html" class="text-decoration-none text-white">Sale</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 mb-3">
@@ -118,6 +163,7 @@
 
 
 
+    <script src="scripts/product-links.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
